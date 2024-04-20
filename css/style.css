@@ -48,14 +48,10 @@
     position: absolute;
     left: 0;
     bottom: -0.8rem;
-    /* width: 0; */
     height: 0.2rem;
     background: transparent;
-    /* background:#eb984e; */
     transition: 0.75s;
 }
-
-/* .navbar__link:hover .navbar__link::after  ==> incorrect css because ::after is NOT an inside element of navbar__link ! */
 
 .navbar__link:hover::after {
     width: 100%;
@@ -105,8 +101,6 @@
     font-size: 5.2rem;    
     line-height: 1.1;
     letter-spacing: -0.5px;   
-    
-
 }
 
 .hero__description {
@@ -161,9 +155,6 @@
     text-align: center;
     text-transform: uppercase;    
 }
-.featured-in .container{
-    max-width: 120rem;
-}
 .featured-in__wapper {
     display: flex;
     justify-content: space-between;
@@ -173,9 +164,6 @@
     filter: brightness(0);
     opacity: 50%;
 }
-/* width: 100% ==> error: 100% mean 100% of its container (here is wapper !!) */
-
-
 
 .how {
     padding: 9.6rem 0;
@@ -241,7 +229,6 @@
     background-color: #fae5d3;
     z-index: -1;
     transition: 0.5s;
-    /* Wata f*** ????? */
 }
 .how__image-box::after {
     width: 60%;
@@ -341,12 +328,12 @@
     margin-bottom: 3.2rem;
 }
 
-.meals__diets .meals__list {
+/* .meals__diets .meals__list {
     font-size: 1.8rem;
-}
-.meals__diets .meals__list .meals__icon {
+} */
+/* .meals__diets .meals__list .meals__icon {
     font-size: 3.2rem;
-}
+} */
 .meals__ingredient {
     position: relative;
 }
